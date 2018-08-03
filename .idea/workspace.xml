@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eeefa6a3-adef-4eff-955a-ffa759012b5a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Week1/PhillyCrime.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Week1/PhillyCrime.ipynb" afterDir="false" />
-    </list>
+    <list default="true" id="eeefa6a3-adef-4eff-955a-ffa759012b5a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/Week1/PhillyCrime.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="29" />
+              <selected id="33" />
             </state>
           </provider>
         </entry>
@@ -43,6 +41,9 @@
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
+  </component>
+  <component name="PhpServers">
+    <servers />
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
@@ -146,12 +147,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1533207717926</updated>
-      <workItem from="1533207719957" duration="1589000" />
+      <workItem from="1533207719957" duration="1728000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1589000" />
+    <option name="totallyTimeSpent" value="1728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="969" extended-state="6" />
