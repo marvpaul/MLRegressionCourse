@@ -36,8 +36,8 @@ def analyze_trend(df, column_name):
 
 
 #Trend of gym
-df[['gym']].plot()
-analyze_trend(df, 'gym').plot()
+#df[['gym']].plot()
+#analyze_trend(df, 'gym').plot()
 
 def compare_two_trends(trend1, trend2):
     df_rm = pd.concat([trend1, trend2], axis=1)
@@ -45,5 +45,13 @@ def compare_two_trends(trend1, trend2):
     plt.xlabel('Year', fontsize=20)
 
 
-compare_two_trends(analyze_trend(df, 'gym'), analyze_trend(df, 'diet'))
+#compare_two_trends(analyze_trend(df, 'gym'), analyze_trend(df, 'diet'))
 
+
+#Analyze seaonality using second-order-differencing
+df[['gym']].diff(2).plot(figsize=(20,10), linewidth=5, fontsize=20)
+
+df_seas_corr = df.diff().corr()
+
+#Check for seasonality in gym search requests via autocorrelation
+pd.plotting.autocorrelation_plot(df[['diet']]);
